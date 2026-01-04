@@ -1,1 +1,4 @@
-`iex "& {$(irm 'https://raw.githubusercontent.com/Xisray/ps-appinstaller/refs/heads/main/appinstaller.ps1')} -AppsList 'https://raw.githubusercontent.com/Xisray/algoritmika-apps-list/refs/heads/main/apps.json'"`
+# Установка
+```
+iex "& {$(irm 'https://raw.githubusercontent.com/Xisray/ps-appinstaller/refs/heads/main/appinstaller.ps1')} -AppsList 'https://raw.githubusercontent.com/Xisray/algoritmika-apps-list/refs/heads/main/apps.json'"
+```

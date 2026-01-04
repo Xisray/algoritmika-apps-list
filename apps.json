@@ -6,13 +6,5 @@
     "Arguments": [
       "/S"
     ]
-  },
-  {
-    "Name": "Google Chrome",
-    "Type": "direct",
-    "DownloadUrl": "http://dl.google.com/chrome/install/chrome_installer.exe",
-    "Arguments": [
-      "/S"
-    ]
   }
 ]

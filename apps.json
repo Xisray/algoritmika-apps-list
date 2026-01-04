@@ -1,32 +1,18 @@
 [
   {
-    "Name": "Google Chrome",
-    "Type": "direct",
-    "DownloadUrl": "http://dl.google.com/chrome/install/chrome_installer.exe"
-  },
-  {
-    "Name": "Roblox Studio",
-    "Type": "direct",
-    "DownloadUrl": "https://setup.rbxcdn.com/RobloxStudioInstaller.exe"
-  },
-  {
-    "Name": "Veyon",
-    "Type": "direct",
-    "PageUrl": "https://veyon.io/en/download/",
-    "FilterMode": "Like",
-    "Pattern": "*win64-setup.exe",
-    "Index": 1,
+    "Name": "7-Zip",
+    "Type": "sourceforge",
+    "Repository": "sevenzip",
     "Arguments": [
       "/S"
     ]
   },
   {
-    "Name": "7-Zip",
-    "Type": "sourceforge",
-    "Repository": "sevenzip",
+    "Name": "Google Chrome",
+    "Type": "direct",
+    "DownloadUrl": "http://dl.google.com/chrome/install/chrome_installer.exe",
     "Arguments": [
-      "/S",
-      "/D=$DestinationFolder\\$Name"
+      "/S"
     ]
   }
 ]

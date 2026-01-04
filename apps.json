@@ -1,10 +1,13 @@
 [
   {
-    "Name": "7-Zip",
-    "Type": "sourceforge",
-    "Repository": "sevenzip",
+    "Name": "Google Chrome",
+    "Type": "direct",
+    "DownloadUrl": "https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi",
     "Arguments": [
-      "/S"
+      "/quiet",
+      "/passive",
+      "/norestart",
+      "/qn"
     ]
   }
 ]

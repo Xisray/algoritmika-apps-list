@@ -1,0 +1,43 @@
+[
+  {
+    "Name": "Google Chrome",
+    "Type": "direct",
+    "PageUrl": "http://dl.google.com/chrome/install/chrome_installer.exe"
+  },
+  {
+    "Name": "Roblox Studio",
+    "Type": "direct",
+    "PageUrl": "https://setup.rbxcdn.com/RobloxStudioInstaller.exe"
+  },
+  {
+    "Name": "Gimp",
+    "Type": "direct",
+    "PageUrl": "https://www.gimp.org/downloads/",
+    "FilterMode": "Like",
+    "Pattern": "*.exe",
+    "Index": 1,
+    "Arguments": [
+      "/S"
+    ]
+  },
+  {
+    "Name": "Veyon",
+    "Type": "direct",
+    "PageUrl": "https://veyon.io/en/download/",
+    "FilterMode": "Like",
+    "Pattern": "win64-setup.exe",
+    "Index": 1,
+    "Arguments": [
+      "/S"
+    ]
+  },
+  {
+    "Name": "7-Zip",
+    "Type": "sourceforge",
+    "Repository": "sevenzip",
+    "Arguments": [
+      "/S",
+      "/D=$DestinationFolder\\$Name"
+    ]
+  }
+]

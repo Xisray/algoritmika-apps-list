@@ -1,13 +1,11 @@
 [
   {
-    "Name": "Revo Uninstaller Pro",
-    "Type": "yandex",
-    "DownloadUrl": "https://disk.yandex.ru/d/04cpGnYo1pSVHw",
+    "Name": "GIMP",
+    "Type": "direct",
+    "DownloadUrl": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.6-setup-1.exe",
     "Arguments": [
-      "/S",
-      "/I",
-      "/NS",
-      "/ND"
+      "/VERYSILENT",
+      "/NORESTART"
     ]
   },
   {
